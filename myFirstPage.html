@@ -18,13 +18,21 @@
          Some div content
     </div>
 
+    <br> <br>
+
     <div id="redDiv"
-         class="myStyle" 
+         class="myStyle"
          onmouseover="changeColor('#c9c2e3', 'redDiv')"
          onmouseout="changeColor('#ff9999', 'redDiv')" >
          Some div content
     </div>
 
-    <button>Click me</button>
+    <br> <br>
+
+    <button id="btnClick"
+            value="Go"
+            onfocus="changeColor('#D3D3D3', 'btnClick')"
+            onclick="updateTxt('The button is clicked')">Click me</button>
 </body>
+
 </html>
