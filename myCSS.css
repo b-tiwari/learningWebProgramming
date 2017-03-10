@@ -1,0 +1,19 @@
+/* for class */
+.myStyle {
+    background-color: #c9c2e3;
+    border: 1px solid #0000ff;
+    height: 50px; 
+    width: 400px;
+}
+
+/* for id */
+#myH1 {
+        color: #ff9999;
+        font-size: 23px;
+}
+
+button {
+    color: #ff9999;
+    font-size: 13px;
+}
+
