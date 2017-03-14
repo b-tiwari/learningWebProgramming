@@ -1,7 +1,14 @@
 <html>
 
 <head>
-    <title> Learning HTML </title>
+    <title> Learning Jquery </title>
+
+    <!--We are adding below scripts:
+        1. jquery-3.1.1.min.js: using minified js which is the process of removing all characters that are not necessary
+        from the Javascript source code
+        2. math.js: This will have functions for desired operations
+        3. myJS2.js: this has actual jquery selectors and events
+     -->
 
     <script src="scripts/jquery-3.1.1.min.js"></script>
     <script src="math.js" ></script>
@@ -18,7 +25,6 @@
 
     <br> <br>
 
-
     <button id="btnAdd" >Add</button>
     <button id="btnMultiply" onclick="multiplyNumbers()">Multiply</button>
 
@@ -26,14 +32,17 @@
         Answer is <span id="answer"></span>
     </div>
 
-
     <div id="banner-message" class="banner"  style="display:none">
         my App Banner
     </div>
 
     <div id="button-container">
-        <button>Show my banner</button>
+        <button>Show/hide my banner</button>
     </div>
+
+    <br> <br>
+    <a href="myFirstPage.html" >Go back to First page</a>
+
 </body>
 
 </html>
