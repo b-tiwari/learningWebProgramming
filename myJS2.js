@@ -1,12 +1,17 @@
+
 function addTwoNumbers() {
+    
+    logger('inside addTwoNumbers function');
+
     $('#answer').text(
-        addNumbers($('#num1').val(), $('#num2').val())
+        
+        BharatsModule.addNumbers($('#num1').val(), $('#num2').val())
     );
 }
 
 function multiplyNumbers() {
     $('#answer').text(
-        multiply($('#num1').val(), $('#num2').val())
+        BharatsModule.multiply($('#num1').val(), $('#num2').val())
     );
 }
 
@@ -19,7 +24,6 @@ $(function () {
 
 
 //Changed from .show() to .toggle() so that the same button can be used to show and hide
-
 function showBanner() {
     var hiddenBox = $("#banner-message");
     $("#button-container button").on("click", function (event) {
