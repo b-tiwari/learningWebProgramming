@@ -24,3 +24,8 @@ button {
     background-color: #dddddd;
 } 
 
+.shadedDiv {
+    padding: 30px !important;
+    border: 1px solid #333;
+    background-color: #dddddd;
+} 
